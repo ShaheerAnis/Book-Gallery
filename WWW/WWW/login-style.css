@@ -1,0 +1,33 @@
+*{
+    background-color: black;
+    color: burlywood;
+}
+h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+#login-form
+{
+    border: burlywood;
+    border-style: solid;
+    border-width: 3px;
+    margin: 250px 500px 250px 500px;
+}
+form{
+    margin: 10px 10px 10px 30px;
+}
+[type='text']
+{
+margin: 3px 3px 3px 3px;
+}
+[type='password']
+{
+    margin: 3px 3px 3px 5px;
+}
+#btn-submit
+{
+    margin-left: 100px;
+    margin-top: 5px;
+}

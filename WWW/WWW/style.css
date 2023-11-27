@@ -1,0 +1,24 @@
+*{
+    background-color: black;
+    color: burlywood;
+}
+li{
+    
+    float: left;
+    border: burlywood;
+    border-width: 2px;
+    border-style: solid;
+    padding: 2px 2px 2px 2px;
+    margin: 1px 1px 1px 1px;
+    list-style: none;
+    margin-top: 30px;
+}
+h1{
+    
+width: 15%;
+float: left;
+}
+#NavBar li a:hover{
+    background-color: burlywood;
+    color: black;
+}

@@ -1,0 +1,56 @@
+*{
+    background-color: black;
+}
+header h1
+{
+    text-align: center;
+    background-color: black;
+    color: burlywood;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: burlywood;
+    bottom: 0;
+}
+.form{
+   border:gray;
+   border-style: solid;
+   border-width: 5px;
+   margin: 80px 400px 200px 400px;
+   background-color: black;
+   
+}
+#frm{
+    padding: 80px 100px 100px 150px;
+    background-color: burlywood;
+    margin-bottom: -1px;
+
+}
+#firstname{
+    background-color: burlywood;
+}
+#lastname{background-color: burlywood;}
+#email{background-color: burlywood;}
+#comment{background-color: burlywood;
+margin-top: 5px;
+}
+[type='text']{
+    background-color: burlywood;
+    margin: 5px 5px 5px 5px;
+}
+[type='email']
+{background-color: burlywood;
+margin-left: 37px;
+margin-top: 5px;
+}
+[for='First Name']{background-color: burlywood;}
+[for='Last Name']{background-color: burlywood;}
+[for='Email']{background-color: burlywood;}
+[for='Comment']{background-color: burlywood;}
+#comment-div{background-color: burlywood;}
+#btn-submit{background-color: black;
+color: burlywood;
+margin-top: 5px;
+border-radius: 5px;
+}

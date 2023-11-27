@@ -1,0 +1,36 @@
+*{
+    background-color: black;
+    color: burlywood;
+}
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#form-forgot
+{
+    margin: 300px 500px 300px 500px;
+    border: burlywood;
+    border-width: 3px;
+    border-style: solid;
+}
+#sub-heading
+{
+    margin-left: 10px;
+}
+[for="email"]
+{
+    margin-left: 130px;
+}
+[type="email"]
+{
+    margin-top: 5px;
+    margin-left: 80px;
+}
+#btn-submit
+{
+    margin-top: 5px;
+    margin-left: 130px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <style>
+        fieldset {
+            
+            display: inline-block;
+        }
+        
+        .required:after {
+            content: " *";
+            color: aqua;
+        }
+        
+        .idiot:after {
+            content: " *";
+            color: aqua;
+        }
+        
+        .cen {
+            color: aqua;
+            margin-left: 470px;
+        }
+        .par{
+            color: aqua;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    
+    <div id="header">
+
+    <div class="logo">
+        <a href="index.html"></a>
+     </div>
+    </div>
+    <div class="cen">
+        <h1>Your Name_Form</h1>
+        <p class="idiot"><i>Please complete the form. Mandatory fields are marked with a  </i></p>
+    </div><br>
+    <form action="/action_page.php">
+
+        <fieldset style="width: max-content; margin-left: 300px;">
+            <legend>
+                <H3><div class="par">CONTACT DETAILS</div></H3>
+            </legend>
+
+            <label class="required" for="name"><div class="par">Name</div></label>
+            <input type="text" id="name" name="name" size="50" style="margin:10px 42px ;"><br>
+            <label for="tele"><div class="par">Telephone</div> </label>
+            <input type="text" id="tele" name="tele" size="50" style="margin-left:50px ;"><br>
+            <label class="required" for="email"><div class="par">Email</div> </label>
+            <input type="email" id="email" name="email" size="50" style="margin:10px 40px ;">
+        </fieldset>
+        <br>
+        <fieldset style="width: max-content;margin-left: 465px;">
+            <legend>
+                <H3><div class="par">PERSONAL INFORMATION</div></H3>
+            </legend>
+            <div class="par">
+                            <label class="required" for="age">Age</label></div>
+                            <input type="number" id="age" name="age" size="60" style="margin:10px ;"><br>
+                            <div class="par"> <label for="gender">Gender</label></div>
+                            <select id="gender" name="gender" style="margin:10px ;">
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                            <option value="other">Other</option>
+                            </select><br>
+                            <label for="message" style="vertical-align: middle;">
+                                <div class="par">
+                        <p> When did you first know you wanted to be a zoo-keeper?</p></div>
+                           <textarea name="message" rows="10" cols="30" style="margin:10px ;"></textarea>
+                                </label><br>
+            </div>
+
+        </fieldset>
+        <br>
+        <fieldset style="width: max-content;margin-left: 465px;">
+            <legend>
+                <H3><div class="par">PICK YOUR FAVOURITE ANIMAL</div></H3>
+            </legend>
+            </div>
+            <div class="par">
+            <input type="checkbox" id="animal" name="aimal">
+            <label for="animal">Zebra</label>
+            <input type="checkbox" id="animal" name="aimal">
+            <label for="animal">Cat</label>
+            <input type="checkbox" id="animal" name="aimal">
+            <label for="animal">Anaconda</label>
+            <input type="checkbox" id="animal" name="aimal">
+            <label for="animal">Human</label><br>
+            <input type="checkbox" id="animal" name="aimal">
+            <label for="animal">Elephant</label>
+            <input type="checkbox" id="animal" name="aimal">
+            <label for="animal">Wildebeest</label>
+            <input type="checkbox" id="animal" name="aimal">
+            <label for="animal">Pigeon</label>
+            <input type="checkbox" id="animal" name="aimal">
+            <label for="animal">Crab</label>
+        </div>
+        </fieldset>
+        <br>  
+        <input type="submit" value="Submit Application" style="border-color:aqua;margin-left: 500px; text-decoration-color: aqua;">
+    
+
+
+
+    </form>
+
+</body>
+
+</html>
